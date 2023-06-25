@@ -37,8 +37,15 @@ export default defineConfig({
                     {
                         text: '兼容应用',
                         link: '/openai/app'
-                    }
-                ]
+                    },
+                    {
+                        text: '在线Chat',
+                        link: 'https://chat.aigc2d.com'
+                    },
+                    {
+                        text: 'Tokens计算',
+                        link: 'https://tiktoken.aigc2d.com/'
+                    }]
             },
             {
                 text: '其他',

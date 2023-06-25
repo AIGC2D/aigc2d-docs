@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a,V as o}from"./chunks/framework.8e478947.js";const u=JSON.parse('{"title":"如何扣费","description":"","frontmatter":{},"headers":[],"relativePath":"guide/fee.md","filePath":"guide/fee.md"}'),n={name:"guide/fee.md"},s=o("",5),_=[s];function r(i,c,l,p,d,f){return t(),a("div",null,_)}const h=e(n,[["render",r]]);export{u as __pageData,h as default};

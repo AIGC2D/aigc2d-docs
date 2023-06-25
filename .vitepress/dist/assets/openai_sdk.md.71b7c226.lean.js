@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,V as l}from"./chunks/framework.8e478947.js";const i=JSON.parse('{"title":"编程指南","description":"","frontmatter":{},"headers":[],"relativePath":"openai/sdk.md","filePath":"openai/sdk.md"}'),p={name:"openai/sdk.md"},o=l("",34),e=[o];function t(c,r,D,F,y,C){return a(),n("div",null,e)}const h=s(p,[["render",t]]);export{i as __pageData,h as default};

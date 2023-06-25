@@ -2,12 +2,27 @@
 
 因为AIGC2D和OpenAI的接口完全兼容，所以市面上的很多应用只需要修改接口地址(API ENDPOINT) 就可以使用了。这里列举一些可以使用AIGC2D的应用。
 
-如果你的应用兼容了AIGC2D或者想写一个应用对接AIGC2D的文档，欢迎联系我们进行对接投稿 (微信:lp1830934534), **编写应用对接文档可以联系我们领取点数奖励**
+如果你的应用兼容了AIGC2D或者想写一个应用对接AIGC2D的文档，欢迎联系我们进行对接投稿 (微信:lp1830934534), *
+*编写应用对接文档可以联系我们领取点数奖励**
 
+- BetterChatGPT
 - ChatBox
 - ChatGPT-Next-Web
 - wechat-chatgpt
 - 沉浸式翻译
+- [Chat2DB](#chat2db)
+
+## BetterChatGPT
+
+[BetterChatGPT](https://chat.aigc2d.com) OpenAI的ChatGPT（网站+ Windows + MacOS + Linux）的惊人UI
+
+![aigc2d](/assets/aigc2d-beeterchatgpt.png)
+
+### 设置教程
+
+APIKEY 填入AIGC2D的APIKEY
+
+![aigc2d](/assets/aigc2d-setting.png)
 
 ## ChatBox
 
@@ -67,3 +82,21 @@ docker run -d -p 3000:3000 \
 3. 自定义 API 接口地址：https://api.aigc2d.com/v1/chat/completions
 
 ![translate](/assets/translate.png)
+
+## Chat2DB
+
+[Chat2DB](https://github.com/chat2db/Chat2DB) 一款由阿里巴巴开源免费的多数据库客户端工具，支持windows、mac本地安装，也支持服务器端部署，web网页访问。
+和传统的数据库客户端软件Navicat、DBeaver 相比Chat2DB集成了AIGC的能力，能够将自然语言转换为SQL，
+也可以将SQL转换为自然语言，可以给出研发人员SQL的优化建议，极大的提升人员的效率，是AI时代数据库研发人员的利器，
+不懂SQL的运营或业务也可以轻松使用快速查询业务数据、生成报表的能力。
+
+![Chat2DB](/assets/chat2db.png)
+
+### 设置教程
+
+设置里面设置自定义AI
+
+- `apikey` 填入AIGC2D的APIKEY
+- `Api Host` 填写为： https://api.aigc2d.com
+
+![Chat2db](/assets/chat2db-setting.png)
