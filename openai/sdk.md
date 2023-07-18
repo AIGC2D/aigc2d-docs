@@ -16,7 +16,7 @@ OpenAI官方Python包，封装了常见模型访问方式。 项目源码： [Op
 
 ### 安装
 
-```curl
+```shell
 pip install --upgrade openai
 ```
 

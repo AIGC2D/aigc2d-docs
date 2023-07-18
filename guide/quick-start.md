@@ -24,11 +24,19 @@ https://api.openai.com
 https://api.aigc2d.com
 </div>
 
+<div class="tip custom-block" style="padding-top: 8px">
+<b>AIGC2D 备用接口地址</b>
+
+
+https://apigw.aigc2d.com
+</div>
+
+
 如果您已经理解了上述概念，其实就可以通过OpenAI官方模型接口文档文档，来上手进行测试了，访问时只需要将OpenAI官方访问地址替换为AIGC2D接口地址。 [OpenAI官方接口文档](https://platform.openai.com/docs/api-reference/introduction)
 
 快点开始你的第一次体验吧！首先需要在您使用的操作系统，安装curl命令行工具，如果不熟悉或未安装curl命令行工具，请自行搜索教程安装。 您可以将以下命令粘贴到终端中以运行您的第一个 API 请求。请确保将 APIKEY 替换为您的密钥。
 
-```curl
+```shell
 curl https://api.aigc2d.com/v1/chat/completions \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $AIGC2D-APIKEY" \
