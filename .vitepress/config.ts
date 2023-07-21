@@ -21,7 +21,7 @@ export default defineConfig({
                     {text: '定价', link: '/guide/pricing'},
                     {text: '如何扣费', link: '/guide/fee'},
                     {text: '联系我们', link: '/guide/contact'},
-                ]
+                ],
             },
             {
                 text: 'OpenAI',
@@ -62,6 +62,23 @@ export default defineConfig({
         },
         footer: {
             copyright: 'Copyright © 2023 <a href="https://www.aigc2d.com">AIGC2D</a>'
+        },
+        i18nRouting:true,
+    },
+    lang: 'zh-CN',
+    locales:{
+        root: {
+            label:"简体中文",
+            lang:"zh-CN",
+            title:"简体中文",
+            dir:'/',
+        },
+        en:{
+            label:"English",
+            lang:"en",
+            title:"English",
+            dir:'/en',
+            link:"/en/"
         }
     }
 })
