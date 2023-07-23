@@ -66,6 +66,10 @@ export default defineConfig({
                     {
                         text: '常见问题',
                         link: '/other/question'
+                    },
+                    {
+                        text: '支持计划',
+                        link: '/other/support'
                     }
                 ]
             }
