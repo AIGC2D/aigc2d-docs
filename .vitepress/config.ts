@@ -48,6 +48,19 @@ export default defineConfig({
                     }]
             },
             {
+                text: 'Midjourney',
+                items:[
+                    {
+                        text: 'Midjourney 说明',
+                        link: '/midjourney/index'
+                    },
+                    {
+                        text: '接口文档',
+                        link: 'https://aigc2d-doc.apifox.cn/api-97549394'
+                    }
+                ]
+            },
+            {
                 text: '其他',
                 items: [
                     {
