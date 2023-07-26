@@ -13,3 +13,12 @@ support@aigc2d.com
 ## 联系微信
 
 lp183093454 (备注 AIGC2D)
+
+
+## TG
+
+群组地址： https://t.me/aigc2d_group
+
+二维码：
+
+<img src="/assets/aigc2d-tg-qr.png" alt="TG" width="300px">
