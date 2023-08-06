@@ -61,6 +61,18 @@ export default defineConfig({
                 ]
             },
             {
+                text: '文心一言',
+                items:[
+                    {
+                        text:"文心一言",
+                        link: 'ernie/index'
+                    },{
+                        text:'接口文档',
+                        link:'https://aigc2d-doc.apifox.cn/api-100847234'
+                    }
+                ]
+            },
+            {
                 text: '其他',
                 items: [
                     {
@@ -70,6 +82,10 @@ export default defineConfig({
                     {
                         text: '支持计划',
                         link: '/other/support'
+                    },
+                    {
+                        text:'更新日志',
+                        link: '/other/changelog'
                     }
                 ]
             }
