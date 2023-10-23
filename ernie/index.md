@@ -1,7 +1,7 @@
 # 文心一言
 目前已支持文心一言 **ernie-bot** **ernie-bot-turbo** 对话模型
 
-已经集成到 OpenAI 对话接口里，可直接修改模型参数 **ernie-bot** **ernie-bot-turbo**
+已经集成到 OpenAI 对话接口里，可直接修改模型参数 **ernie-bot**  **ernie-bot-4** **ernie-bot-turbo**
 
 相应数据和OpenAI一致
 

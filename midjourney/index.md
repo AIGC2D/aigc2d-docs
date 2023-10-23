@@ -1,5 +1,8 @@
 # Midjourney 说明
 
+**<span style="color:red">Midjourney接口已暂停使用，请使用SD接口，价格更便宜、自定义性更强</span>**
+
+
 AIGC2D API 接口域名为：`api.aigc2d.com`
 
 请求接口需要在请求头添加 API KEY ,授权方式为 Bearer Token
@@ -9,6 +12,8 @@ AIGC2D API 接口域名为：`api.aigc2d.com`
 
 ## 接口说明
 由于 **Midjourney** 并没有开放对应的接口，所以这里的接口是通过 **Discord**  实现的。
+
+<p style="color:red">官方严厉禁止脚本获取行为，所以已经暂停使用MJ接口，如果需要继续使用请联系客服独立部署</p>
 
 **AIGC2D** 已经实现了 :
 
