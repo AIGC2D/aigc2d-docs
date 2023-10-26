@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       {text: '首页', link: 'https://www.aigc2d.com'},
       {text: '快速开始', link: '/guide/what-is-aigc2d'},
-      {text: '控制台', link: 'https://www.aigc2d.com/app/dashboard'}
+      {text: '控制台', link: 'https://www.aigc2d.com/dashboard'}
     ],
 
     sidebar: [
