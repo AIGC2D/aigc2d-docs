@@ -24,7 +24,7 @@ export default defineConfig({
         ],
       },
       {
-        text: 'OpenAI',
+        text: 'OpenAI模型服务',
         items: [
           {
             text: '编程指南',
@@ -46,6 +46,22 @@ export default defineConfig({
             text: 'Tokens计算',
             link: 'https://tiktoken.aigc2d.com/'
           }]
+      },
+      {
+        text: "Claude模型服务",
+        items: [
+          {
+            text: '编程指南',
+            link: '/claude/sdk'
+          },
+          {
+            text: "使用指南",
+            link: "/claude/api"
+          }, {
+            text: "在线接口文档",
+            link: "https://aigc2d-doc.apifox.cn/api-128163641"
+          }
+        ]
       },
       {
         text: 'Midjourney',

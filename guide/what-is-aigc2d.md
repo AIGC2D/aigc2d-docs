@@ -11,10 +11,11 @@ Content To Developer）平台应运而生，主要针对开发者提供多样化
 在AIGC2D平台上，开发者可以轻松获取如下一些著名的AIGC接口：
 
 - **OpenAI**
+- **Claude**
 - **Midjourney**
 - **Stable Diffusion**
 - **文心大模型**
-- ...
+- **讯飞星火**
 
 通过AIGC2D平台，开发者可以更轻松地获取这些AIGC接口，从而降低开发难度，提升生产力，将人工智能技术应用到各种不同的领域和应用场景。
 
