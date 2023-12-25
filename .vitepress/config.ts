@@ -141,5 +141,6 @@ export default defineConfig({
       dir: '/en',
       link: "/en/"
     }
-  }
+  },
+  outDir:"./dist"
 })
